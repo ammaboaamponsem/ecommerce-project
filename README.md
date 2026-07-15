@@ -11,7 +11,7 @@ A responsive e-commerce storefront designed for seamless product browsing and us
 - HTML5, CSS3, JavaScript
 
 ### Live Demo
-[View Live Project](https://amma-project3-ecommerce.netlify.app)
+[View Live Project](https://amma-project3-ecommerce-8d42c06d.netlify.app/)
 
 ### Problem Solved
 Provides a streamlined front-end solution for online retail, focusing on clear navigation and product presentation to increase user engagement.
