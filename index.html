@@ -1,15 +1,26 @@
-<script src="https://cdn.tailwindcss.com"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE SHOP | Premium Essentials</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
 <body class="bg-slate-50 min-h-screen">
     <nav class="flex justify-between items-center p-6 bg-white shadow-sm">
         <h1 class="text-2xl font-bold tracking-tight text-blue-600">LUXE SHOP</h1>
-        <div class="space-x-6 text-gray-600 font-medium"><a>New Arrivals</a><a>Collections</a><a>Account</a></div>
+        <div class="space-x-6 text-gray-600 font-medium cursor-pointer">
+            <span>New Arrivals</span>
+            <span>Collections</span>
+            <span>Account</span>
+        </div>
     </nav>
     <header class="py-20 text-center bg-white">
         <h2 class="text-5xl font-extrabold mb-4">Elevated Essentials</h2>
         <p class="text-gray-500 mb-8">Discover our premium curated collection.</p>
         <button class="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700">Shop Now</button>
     </header>
-    <section class="max-w-6xl mx-auto p-12 grid grid-cols-3 gap-8">
+    <section class="max-w-6xl mx-auto p-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="bg-white p-4 rounded-2xl shadow-lg border">
             <div class="h-64 bg-gray-100 rounded-xl mb-4"></div>
             <h3 class="font-bold">Premium Minimalist Watch</h3>
@@ -27,3 +38,4 @@
         </div>
     </section>
 </body>
+</html>
